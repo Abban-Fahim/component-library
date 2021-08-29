@@ -1,6 +1,6 @@
 {
   "name": "@abban-fahim/component-library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A component library for react. Made using Storybook and TailwindCSS.",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
@@ -24,12 +24,14 @@
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.2.2",
     "postcss": "^8.3.6",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
     "rollup": "^2.56.3",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.1",
     "storybook-tailwind-dark-mode": "^1.0.11",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.8"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
