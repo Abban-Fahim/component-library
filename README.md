@@ -15,5 +15,6 @@ npm i @abban-fahim/component-library
 import { Button } from "@abban-fahim/component-library";
 
 function App() {
-  return <Button>Well hello there!</Button>
+  return <Button>Well hello there!</Button>;
 }
+```
